@@ -1,3 +1,6 @@
+Object = In Python, an object is a fundamental concept that represents a specific instance of a data structure 
+or a class. Almost everything in Python is an object, including numbers, strings, lists, dictionaries, functions,
+and even classes themselves.
 
 set: Unordered collecetion of unique elements.   set={1,2}
   .add(1)  [to add an ele into a set]
