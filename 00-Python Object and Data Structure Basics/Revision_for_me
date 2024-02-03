@@ -5,3 +5,15 @@ set: Unordered collecetion of unique elements.   set={1,2}
 
 If we don't want to assign anything just give->  b=None  [this wont return anything]
 => type(my_list)    [this gives the data type of my_list which is  a list]
+
+To write in a file:-
+    %%writefile myfile.txt
+    Helloo
+    HII
+    How are yuhh
+
+=> to open this => myfile=open(myfile.txt)
+=>to read this =>  myfile.read()              [gives the text in a file as a string with \n for a new line]
+=> if we again read this, nothing will be printed so doo=> myfile.seek(0)
+    [this will make the cursor to be at starting index to read again]
+=>  myfile.readlines()    [to give each line as sepearate object(more convenient to read)  with \n]
