@@ -15,6 +15,8 @@ To write in a file:-
     HII
     How are yuhh
 
+//for all other addons, visit solutions page in 1st module.
+
 => to open this => myfile=open(myfile.txt)
 =>to read this =>  myfile.read()              [gives the text in a file as a string with \n for a new line]
 => if we again read this, nothing will be printed so doo=> myfile.seek(0)
@@ -24,3 +26,10 @@ To write in a file:-
 (or)
 with open(myfile.txt) as my_new_file:
   contents=my_new_file.read()    [now no need to close the file]
+
+
+break= breakes out of the loop 
+continue= goes to the top of the closest loop
+pass= just doesnot do anything.
+Generators->
+list[range(0,10,2)]    =>gives [0,2,4,6,8]
