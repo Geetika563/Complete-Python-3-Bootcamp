@@ -1,2 +1,7 @@
 
 set: Unordered collecetion of unique elements.   set={1,2}
+  .add(1)  [to add an ele into a set]
+  What is the result of set([1,1,2,3]) == {1,2,3}
+
+If we don't want to assign anything just give->  b=None  [this wont return anything]
+=> type(my_list)    [this gives the data type of my_list which is  a list]
