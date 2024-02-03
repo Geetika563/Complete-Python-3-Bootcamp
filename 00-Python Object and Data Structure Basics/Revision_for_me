@@ -17,3 +17,7 @@ To write in a file:-
 => if we again read this, nothing will be printed so doo=> myfile.seek(0)
     [this will make the cursor to be at starting index to read again]
 =>  myfile.readlines()    [to give each line as sepearate object(more convenient to read)  with \n]
+=> myfile.close()   [we need to close the file, if later on we want to edit this file]
+(or)
+with open(myfile.txt) as my_new_file:
+  contents=my_new_file.read()    [now no need to close the file]
