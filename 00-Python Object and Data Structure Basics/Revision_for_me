@@ -38,3 +38,15 @@ zip-> oppositr to enumerate, zips 2(and also more) lists and return as a tuple.
 list(zip(list1,list2))   =>    [(1,'a'),(2,'b')]
 in  -> to check if, it is there in that list or not. eg->    2 in [1,2,3]   gives true;   'my_key' in {'my_key':123}=>True;
 min(list)=> gives the minimum value; max(list)=>gives max value
+
+
+# 3 in github repo
+list.append()   [to push_back into the list]
+list.pop()      [to pop the last element from the list]
+
+To learn new methods do=> list.   [now press tab] to get all method there.   
+and do (shift+tab) to get details about that particular method.
+https://docs.python.org  => for documentation.
+
+def name_of_function():    => snake casing, is all lowercase with underscores b/w words.
+name_of_fucntion()         => to call the function later in our big code.
