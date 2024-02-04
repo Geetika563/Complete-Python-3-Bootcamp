@@ -33,3 +33,8 @@ continue= goes to the top of the closest loop
 pass= just doesnot do anything.
 Generators->
 list[range(0,10,2)]    =>gives [0,2,4,6,8]
+Enumerate-> gives the index count and letter at that particular word.
+zip-> oppositr to enumerate, zips 2(and also more) lists and return as a tuple.
+list(zip(list1,list2))   =>    [(1,'a'),(2,'b')]
+in  -> to check if, it is there in that list or not. eg->    2 in [1,2,3]   gives true;   'my_key' in {'my_key':123}=>True;
+min(list)=> gives the minimum value; max(list)=>gives max value
